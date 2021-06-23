@@ -1,0 +1,39 @@
+﻿@model Core.Entities.PortfolioItem
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div style="margin:68px 180px; margin-bottom:-50px; padding:93px;">
+    <h4>Project Details</h4>
+
+    <div>
+        
+        <hr />
+        <dl class="row">
+            <dt style="padding-bottom:31px;" class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ProjectName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ProjectName)
+            </dd>
+            <dt style="padding-bottom:31px;" class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt style="padding-bottom:31px;" class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </dt>
+            <dd style="padding-bottom:31px;" class="col-sm-10">
+                <img src="~/img/portfolio/@Model.ImageUrl" class="rounded" style="width:200px; height:140px;" />
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id">Edit</a> ||
+        <a asp-action="Index" class="btn btn-primary" style="background-color: #946b6b; border-color: #946b6b; text-decoration:unset;">Back to List</a>
+    </div>
+
+</div>

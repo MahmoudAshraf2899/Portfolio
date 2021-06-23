@@ -1,0 +1,9 @@
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\Portfolio WebSite (Core&MVC)\MyPortfolio\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb

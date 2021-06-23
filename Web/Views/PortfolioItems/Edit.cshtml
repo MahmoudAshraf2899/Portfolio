@@ -1,0 +1,43 @@
+﻿@model PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="margin:130px 180px;">
+    <h4 style="color: #5a5555;">Edit Your Project</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="ProjectName" class="control-label" style="font-size:21px;"></label>
+                    <input asp-for="ProjectName" class="form-control" />
+                    <span asp-validation-for="ProjectName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label" style="font-size:21px;"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageUrl" class="control-label" style="font-size:21px;"></label>
+                    <input type="file" asp-for="File" class="form-control" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />||
+                    <a asp-action="Index" class="btn btn-primary"style="background-color: #946b6b; border-color: #946b6b; text-decoration:unset;">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+      
+    </div>
+
+
+</div>
